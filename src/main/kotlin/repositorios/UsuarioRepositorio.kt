@@ -1,23 +1,26 @@
 package repositorios
 
-import entidades.Cliente
+import entidades.Usuario
 
-class ClienteRepositorio {
-    val clientes = mutableListOf<Cliente>()
+class UsuarioRepositorio {
+    val usuarios = mutableListOf<Usuario>()
 
-    fun agregar(cliente: Cliente) {
-        clientes.add(cliente)
+    fun agregar(usuario: Usuario) {
+        if(existe(usuario.nombre)){
+            //TODO fallar
+        }
+        usuarios.add(usuario)
     }
 
-    fun eliminar(cliente: Cliente) {
-        clientes.remove(cliente)
+    fun eliminar(usuario: Usuario) {
+        usuarios.remove(usuario)
     }
 
-    fun obtenerPorId(id: Long) {
+    fun existe(nombreUsuario: String): Boolean {
         //TODO: Completar
     }
 
-    fun buscar(apellido: String, nombre: String) {
+    fun iniciar(nombreUsuario: String, password: String): List<Usuario> {
         //TODO: Completar
     }
 }

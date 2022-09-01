@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf4cdfb3-f02d-44b3-a2b5-a38a28207037" name="Changes" comment="" />
+    <list default="true" id="bf4cdfb3-f02d-44b3-a2b5-a38a28207037" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/entidades/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/entidades/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/entidades/Ticket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/entidades/Ticket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/entidades/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/entidades/Usuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/repositorios/ClienteRepositorio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/repositorios/ClienteRepositorio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/repositorios/TicketRepositorio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/repositorios/TicketRepositorio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/repositorios/UsuarioRepositorio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/repositorios/UsuarioRepositorio.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EBdWwoXkk0WAECkolQA3QV2Odt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +43,16 @@
   "keyToString": {
     "Project.color": "2c2d16",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="repositorios" />
+      <recent name="entidades" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,5 +63,16 @@
       <updated>1662072955395</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,23 +1,24 @@
 package repositorios
 
-import entidades.Cliente
+import entidades.Ticket
 
-class UsuarioRepositorio {
-    val clientes = mutableListOf<Cliente>()
+class TicketRepositorio {
+    val tickets = mutableListOf<Ticket>()
 
-    fun agregar(cliente: Cliente) {
-        clientes.add(cliente)
+    fun agregar(ticket: Ticket) {
+        tickets.add(ticket)
     }
 
-    fun eliminar(cliente: Cliente) {
-        clientes.remove(cliente)
+    fun eliminar(ticket: Ticket) {
+        tickets.remove(ticket)
     }
 
-    fun obtenerPorId(id: Long) {
+    fun obtenerPorId(id: Long): Ticket {
         //TODO: Completar
     }
 
-    fun buscar(apellido: String, nombre: String) {
+    //TODO verificar que datos conviene usar para buscar
+    fun buscar(): List<Ticket> {
         //TODO: Completar
     }
 }
