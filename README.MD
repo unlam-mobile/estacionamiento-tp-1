@@ -22,6 +22,8 @@ La cadena opera con 3 categorías de vehículo, donde cada una tiene sus propias
 | Ciclomotor      | No se le aplica recargos                                                                                                                                                                                              | <ul><li>Siempre el monto del ticket será de $150 por hora</li></ul>                                                                                                                                                                                                                         |
 
 
+A su vez, como estrategia para atraer clientes, la empresa otorga los siguientes beneficios:
+
 | **BENEFICIO**                                                                                                                                             | **EJEMPLO**                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si el cliente tiene 1 mes o menos de antigüedad, se le aplica un descuento del 50% al ticket de estacionamiento (total con recargo)                       | Si un cliente de 20 días de antigüedad estaciono su camión por 6hs un día sábado, siendo la tarifa por hora aplicada en su caso de $165; el ticket será de $495    |
@@ -68,7 +70,9 @@ Notas:
 - No necesita implementar una interfaz gráfica para este ejercicio.
 - No necesita hacer uso de una base de datos para este ejercicio.
 - Todas las reglas que la compañía usa para calcular el costo total fueron dadas
-  anteriormente. No necesita aplicar ninguna otra regla. Requisitos:
+  anteriormente. No necesita aplicar ninguna otra regla.
+  
+Requisitos:
 - Hacer uso de dos tipos diferentes de clases.
 - Hacer uso de herencia y polimorfismo.
 - Hacer uso de funciones lambda y/o funciones acotadas.
